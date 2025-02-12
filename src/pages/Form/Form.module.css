@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:hover {
+  background-color: #cccc;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select:hover {
+  background-color: #cccc;
+}
+
+.label {
+  text-align: left;
+}
+
+.confirmButton {
+  color: #4caf50;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid #4caf50;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.backButton {
+  color: cadetblue;
+  background-color: transparent;
+  padding: 10px;
+  width: 100%;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid cadetblue;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+.subcontainer p {
+  color: gray;
+}

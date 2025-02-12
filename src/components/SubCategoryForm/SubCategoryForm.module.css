@@ -1,0 +1,23 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category select:focus {
+  outline: none;
+}
+
+.category select:hover {
+  background-color: #ccc;
+}

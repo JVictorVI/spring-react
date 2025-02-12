@@ -1,0 +1,100 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.updateButton {
+  color: #4caf50;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #4caf50;
+  cursor: pointer;
+}
+
+.updateButton:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.deleteButton {
+  color: #f44336;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #f44336;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.pagination input {
+  padding: 10px;
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pagination input:focus {
+  outline: none;
+}
+
+.pagination input:hover {
+  background-color: #ccc;
+}
+
+.pagination button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: darkblue;
+}

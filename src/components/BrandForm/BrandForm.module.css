@@ -1,0 +1,94 @@
+.BrandForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.BrandForm .fields {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.BrandForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.BrandForm input:hover {
+  background-color: #ccc;
+}
+
+.BrandForm input:focus {
+  outline: none;
+}
+
+.BrandForm button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.BrandForm button:hover {
+  background-color: darkblue;
+}
+
+.BrandForm .delete {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.BrandForm .delete:hover {
+  background-color: darkred;
+}
+
+.BrandForm table {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.BrandForm table th {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.BrandForm table td {
+  padding: 10px;
+  font-size: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.BrandForm table tbody {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.BrandForm .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.BrandForm tbody tr:hover {
+  background-color: #ccc;
+}

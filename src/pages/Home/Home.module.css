@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+}
+
+.floatingButton {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  background-color: blueviolet;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.floatingButton:hover {
+  background-color: #4b0082;
+}
